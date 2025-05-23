@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sign-up Form -->
+    <div class="container">
+      <div class="left-panel">
+        <img src="noragami-shrine.jpeg" alt="Yato's Shrine" />
+        <p class="overlay-credit">
+          Art by
+          <a
+            href="https://blenderartists.org/u/rigoletto/summary"
+            target="_blank"
+            rel="noopener noreferrer"
+            >rigoletto</a
+          >
+        </p>
+      </div>
+      <div class="right-panel">
+        <h1>YATO'S WISH REQUEST FORM</h1>
+        <p>ONLY 5 YEN FOR DIVINE HELP!</p>
+        <form method="get">
+          <div class="input-group">
+            <input
+              type="text"
+              placeholder="*First Name"
+              name="first-name"
+              required
+            />
+            <input
+              type="text"
+              placeholder="*Last Name"
+              name="last-name"
+              required
+            />
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="*Email" name="email" required />
+            <input type="tel" placeholder="*Phone" name="phone" required />
+          </div>
+          <div class="input-group">
+            <input
+              type="password"
+              placeholder="*Password"
+              name="pass"
+              required
+            />
+            <input
+              type="password"
+              placeholder="*Confirm Password"
+              name="confirm-pass"
+              required
+            />
+          </div>
+          <button>Make a Wish</button>
+          <p>Already made a wish? <a href="">Log in</a></p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
